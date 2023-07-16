@@ -1,0 +1,49 @@
+.contactItem {
+  position: relative;
+  font-size: large;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+
+  border-radius: 5px;
+  background-color: whitesmoke;
+
+  transition: background-color 500ms;
+
+  &:hover,
+  &:focus {
+    background-color: #e47200;
+    border: 2px solid #e47200;
+    color: white;
+  }
+}
+
+/* .contactItem {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #555;
+  font-weight: bold;
+  transition: background-color 300ms, color 300ms, border-color 300ms;
+
+  &:hover,
+  &:focus {
+    background-color: #e47200;
+    border-color: #e47200;
+    color: white;
+  }
+} */
